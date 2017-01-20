@@ -12,6 +12,11 @@ import java.util.Set;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 
+/**
+ * Implementation of Diwali Lightings challenge posted on 
+ * https://code.google.com/codejam/contest/dashboard?c=5264487#s=p0
+ *
+ */
 public class DiwaliLighting {
 	
 	private Character search = 'B';
@@ -24,6 +29,10 @@ public class DiwaliLighting {
 	}
 	
 	
+	/**
+	 * Parsing and loading input file into the List of strings.
+	 * @throws IOException
+	 */
 	protected void loadInput() throws IOException {
 		
 		File inputFile = new File(inputFilePath);
@@ -31,7 +40,7 @@ public class DiwaliLighting {
 		List<String> inputLines = 
 				FileUtils.readLines(inputFile, Charset.defaultCharset());
 		
-		//begin with line 1, as the line 0 is a number of tests
+		//begin with line 1, as the line 0 is a number of tests, ignore that.
 		for (int i = 1; i < inputLines.size(); i+=2) {
 		
 			String pattern = inputLines.get(i);
@@ -55,6 +64,11 @@ public class DiwaliLighting {
 		
 	}
 	
+	/**
+	 * Parsing and loading pattern.
+	 * @param pattern pattern as string
+	 * @return pattern as List of characters
+	 */
 	protected List<Character> loadPattern(final String pattern) {
 		if  (pattern == null || pattern.length() == 0) {
 			throw new IllegalArgumentException("Pattern must not be blank");
@@ -71,41 +85,94 @@ public class DiwaliLighting {
 	}
 	
 	
+	/**
+	 * Processing a case and producing the output result.
+	 * @param caseIndex case index
+	 * @param pattern pattern
+	 * @param start starting point
+	 * @param end end point
+	 * @return Case as specified in requirements
+	 */
 	protected String processLine(final int caseIndex, final String pattern, final long start, final long end) {
 		List<Character> basePattern = loadPattern(pattern);
 
-		
+		long searchCountInPattern = 0;
+
+		//load search index where an element represents the position of a search letter within a single pattern
 		Set<Long> searchIndex = new HashSet<Long>();
 		for (int i = 0; i < basePattern.size(); i++) {
 			Character item = basePattern.get(i);
-			
+
 			if (search == item) {
-				searchIndex.add(Long.valueOf(i+1));
+				searchIndex.add(Long.valueOf(i + 1));
+				searchCountInPattern++;
 			}
 		}
-		
+
 		if (end < start) {
 			throw new IllegalArgumentException("End cannot be less than start");
 		}
-		int count = 0;
+
 		
+		long count = 0;
 		
-		
-		for (long i = start; i <= end; i++) {
-			
-			long indexToBase = i;
-			if (indexToBase > basePattern.size()) {
-				indexToBase = indexToBase % basePattern.size();
+		long evenStart = start;
+		long evenEnd = end;
+
+		//begin iteration from the start point until we hit the beginning of the complete pattern
+		for (long i = start;; i++) {
+			long iToBase = i % basePattern.size();
+			if (iToBase == 0) {
+				iToBase = basePattern.size();
 			}
-			if (indexToBase == 0) {
-				indexToBase = basePattern.size();
+
+			if (iToBase == 1) {
+				evenStart = i;
+				break;
 			}
-			if (searchIndex.contains(indexToBase)) {
+			if (searchIndex.contains(iToBase)) {
 				count++;
-			} 
+
+			}
+
+			if (iToBase == basePattern.size()) {
+				evenStart = i;
+				break;
+			}
+
 		}
-		
+
+		//iterate backward from the end point until we hit the end of the complete pattern
+		for (long i = end;; i--) {
+			long iToBase = i % basePattern.size();
+			if (iToBase == 0) {
+				iToBase = basePattern.size();
+			}
+
+			if (iToBase == basePattern.size()) {
+				evenEnd = i;
+				break;
+			}
+
+			if (searchIndex.contains(iToBase)) {
+				count++;
+			}
+			if (iToBase == 1) {
+				evenEnd = i;
+				break;
+			}
+
+		}
+
+		long evenRange = evenEnd - (evenStart - 1);
+
+		//now that we counted the instances of the search letter in the incomplete patterns (at the start and at the end)
+		//we simply calculate the number of occurrences of the search letter within the infinite
+		//set of the complete patterns.
+		//This works because the number of the search letter occurrences within a single pattern is constant.
+		count = count + searchCountInPattern * (evenRange / basePattern.size());
 		return "Case #" + (caseIndex + 1) + ": " + count;
+
 	}
 
 	public void count() throws IOException {
@@ -127,15 +194,24 @@ public class DiwaliLighting {
 	
 	public static void main(String[] args) {
 		try {
+			long startTime = System.currentTimeMillis();
 			String inputFilePath = args[0];
 			DiwaliLighting program = new DiwaliLighting(inputFilePath);
 			program.count();
+			long endTime = System.currentTimeMillis();
+			long time = endTime - startTime;
+			System.out.println("***Completed in " + time + "ms ***");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
 	}
 	
+	/**
+	 * A class that represents a single input test case.
+	 * 
+	 *
+	 */
 	public class InputTestCase {
 		private String pattern;
 		private long start;
