@@ -1,6 +1,7 @@
 package my.test.bed.misc;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class MiscTests {
 
@@ -29,5 +30,19 @@ public class MiscTests {
 
 		Arrays.asList(new Integer[]{});
 		System.out.println(Arrays.toString(nums));
+		
+		int a = 1;
+		int b = 2;
+		int c = a = b;
+		System.out.println(a);
+		
+		Stack<Integer> stackTest = new Stack<>();
+		stackTest.push(1);
+		stackTest.push(2);
+		stackTest.push(3);
+		stackTest.push(4);
+		
+		System.out.println(stackTest.pop());
+		System.out.println(stackTest.size());
 	}
 }
