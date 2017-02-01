@@ -44,5 +44,7 @@ public class MiscTests {
 		
 		System.out.println(stackTest.pop());
 		System.out.println(stackTest.size());
+		
+		System.out.println("One".hashCode() % 100);
 	}
 }
