@@ -11,10 +11,10 @@ public class CountCode {
 	 * @param str
 	 * @return
 	 */
-	public int countCode(String str) {
+	public static int countCode(String str) {
 
 		String searchStr = "code";
-
+		
 		if (str == null || str.length() < searchStr.length()) {
 			return 0;
 		}
@@ -33,5 +33,11 @@ public class CountCode {
 		return count;
 
 	}
+	
+	public static void main(String[] args) {
+		System.out.println(countCode("codecodecope con tablecoze"));
+	}
+	
+	
 
 }

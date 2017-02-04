@@ -6,7 +6,7 @@ public class TestMyHashMap {
 	public static void main(String[] args) {
 		MyHashMap<String, String> myMap = new MyHashMap<>();
 		
-		
+		System.out.println("size="  + myMap.size());
 		myMap.put("One", "1");
 		myMap.put("Two", "2");
 		myMap.put("Three", "3");
@@ -29,7 +29,9 @@ public class TestMyHashMap {
 		
 		myMap.remove("Three");
 		System.out.println(myMap.get("Three"));
+		System.out.println("size="  + myMap.size());
 		myMap.put("Three", "3");
 		System.out.println(myMap.get("Three"));
+		System.out.println("size="  + myMap.size());
 	}
 }

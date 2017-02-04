@@ -1,6 +1,9 @@
 package my.test.bed.misc;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Stack;
 
 public class MiscTests {
@@ -37,14 +40,24 @@ public class MiscTests {
 		System.out.println(a);
 		
 		Stack<Integer> stackTest = new Stack<>();
+		
 		stackTest.push(1);
 		stackTest.push(2);
 		stackTest.push(3);
 		stackTest.push(4);
+		stackTest.push(0);
 		
-		System.out.println(stackTest.pop());
-		System.out.println(stackTest.size());
+		System.out.println(stackTest.get(0));
 		
-		System.out.println("One".hashCode() % 100);
+		List<Integer> list = new LinkedList<>();
+		
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		
+		Collections.reverse(list);
+		
+		System.out.println(list.get(0));
+		
 	}
 }

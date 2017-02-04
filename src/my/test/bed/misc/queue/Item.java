@@ -14,9 +14,9 @@ public class Item implements Comparable<Item> {
 	}
 	
 	public enum Priority {
-		LOW(0),
+		LOW(2),
 		MEDIUM(1),
-		HIGH(2);
+		HIGH(0);
 	
 		private int value;
 		Priority(final int priorityParam) {
@@ -30,10 +30,13 @@ public class Item implements Comparable<Item> {
 
 	@Override
 	public final int compareTo(final Item o) {
-		if(o.getTimestamp() == getTimestamp()) {
-			return o.getPriority().getValue() - getPriority().getValue();
+		int timestampDiff = Long.compare(getTimestamp(), o.getTimestamp());
+		if(timestampDiff == 0) {
+			return Integer.compare(getPriority().getValue(), o.getPriority().getValue());
+			
 		} else {
-			return  new Long(o.getTimestamp() - getTimestamp()).intValue();
+			return timestampDiff;
+			
 		}
 		
 	}

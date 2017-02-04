@@ -58,8 +58,8 @@ public class FixFourFive {
 
 			int itemNextToFour = numsAsList.get(four + 1);
 			
-			//same as in FixThreeFour, but if item next to four is five, then
-			//we can't use it. Instead we reverse the list of positions of five and move on
+			//same as in FixThreeFour, but if an item next to four is five, then
+			//we can't use it. Instead we reverse the list of positions of fives and move on
 			//in such case on the next iteration, a five will be taken from position that is NOT next to four
 			if (itemNextToFour == 5) {
 				Collections.reverse(positionsOfFives);

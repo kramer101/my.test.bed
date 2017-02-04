@@ -31,13 +31,13 @@ public class ParentChildRelationTree {
 		
 		Integer[] children = map.get(node);
 		if (children != null && children.length > 0) {
-			inOrder(map, children[0]);
+			inOrder(map, children[0]); //left child
 			
 			result.add(node);
-			System.out.println(node);
+			System.out.println(node); //root
 			
 			if (children.length == 2) {
-				inOrder(map, map.get(node)[1]);
+				inOrder(map, map.get(node)[1]); //right child
 			}
 			
 		}
@@ -47,7 +47,7 @@ public class ParentChildRelationTree {
 	
 	public static void postOrder(final Map<Integer, Integer[]> map, int node) {
 
-		if (!map.containsKey(node)) {
+		if (!map.containsKey(node)) { //checking if a child is also a parent
 			result.add(node);
 			System.out.println(node);
 			return;
@@ -56,7 +56,7 @@ public class ParentChildRelationTree {
 		Integer[] children = map.get(node);
 		if (children != null) {
 			
-			for (int i = 0; i < children.length; i++) {
+			for (int i = 0; i < children.length; i++) { //children left to right
 				Integer child = children[i];
 				postOrder(map, child);
 				
@@ -64,7 +64,7 @@ public class ParentChildRelationTree {
 		}
 		
 		
-		result.add(node);
+		result.add(node);//root
 		System.out.println(node);
 	}
 	

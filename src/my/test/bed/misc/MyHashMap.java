@@ -3,8 +3,6 @@ package my.test.bed.misc;
 public class MyHashMap<K extends Comparable<K>, V> {
 
 	int initSize = 10;
-
-	//using chaining
 	
 	private Entry<K, V>[] table = new Entry[initSize];
 	private int size = 0;
@@ -18,7 +16,7 @@ public class MyHashMap<K extends Comparable<K>, V> {
 		size++;
 	}
 	
-	public void put(K keyParam, V valueParam) {
+	public void put(final K keyParam, final V valueParam) {
 		int hash = hash(keyParam);
 		Entry<K, V> entry = table[hash];
 		
@@ -67,7 +65,7 @@ public class MyHashMap<K extends Comparable<K>, V> {
 		return next;
 	}
 	
-	public V get(K keyParam) {
+	public V get(final K keyParam) {
 		int hash = hash(keyParam);
 		if (hash > table.length - 1 || hash < 0) {
 			return null;
