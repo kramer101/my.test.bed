@@ -59,5 +59,7 @@ public class MiscTests {
 		
 		System.out.println(list.get(0));
 		
+		System.out.println( (5 % 10));
+		
 	}
 }

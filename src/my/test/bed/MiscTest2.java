@@ -17,6 +17,8 @@ public class MiscTest2 {
 		System.out.println("x" + x + " y" + y);
 		System.out.println(list);
 		System.out.println(Math.PI * Math.pow(5, 2));
+		
+		System.out.println("Bobby".hashCode());
 	}
 	
 	

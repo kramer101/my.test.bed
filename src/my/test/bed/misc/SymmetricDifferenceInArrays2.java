@@ -29,16 +29,19 @@ public class SymmetricDifferenceInArrays2 {
 	
 	public static void main(String[] args) {
 		List<Integer> a = new ArrayList<>();
-		a.add(1);
-		a.add(2);//
-		a.add(7);//
-		a.add(9);
+		a.add(5);
+		a.add(9);//
+		a.add(4);//
+		a.add(7);
+		a.add(4);
 		
 		List<Integer> b = new ArrayList<>();
-		b.add(2);//
-		b.add(7);//
-		b.add(22);
-		b.add(54);
+		b.add(1);//
+		b.add(8);//
+		b.add(7);
+		b.add(9);
+		b.add(11);
+		b.add(5);
 		
 		System.out.println(diff(a, b));
 	}

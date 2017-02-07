@@ -142,7 +142,10 @@ public class ParentChildRelationTree {
 		System.out.println("");
 		
 		Set<Integer> longestRoute = new LinkedHashSet<Integer>();
+		
+		//trace back
 		int i = result.size() - 1;
+		
 		for (; i > 0; i--) {
 			int increment = 1;
 			

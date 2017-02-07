@@ -18,11 +18,11 @@ public class SelectionSortTest {
 	public static int[] sort(final int[] input) {
 		
 		int[] result = input;
-		for (int i = 0; i < result.length; i++) {
+		for (int i = 0; i < result.length - 1; i++) {
 			
 			int smallestValue = Integer.MAX_VALUE;
 			int smallestValueIndex = 0;
-			for (int j = i; j < result.length; j++) {
+			for (int j = i + 1; j < result.length; j++) {
 				if (smallestValue > result[j]) {
 					smallestValue = result[j];
 					smallestValueIndex = j;

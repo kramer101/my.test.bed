@@ -37,7 +37,9 @@ public class StringAndSubstring {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isSubstringOf("carpets", "arp"));
+		System.out.println(isSubstringOf("carpets", "pets"));
 	}
 
+	
+	
 }

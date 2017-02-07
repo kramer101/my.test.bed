@@ -29,12 +29,12 @@ public class ShuffleTest {
 				break;
 			}
 			
-			int random = getRandomIndex(listOfInts.size());
+			int randomIndex = getRandomIndex(listOfInts.size());
 			int lastItem = listOfInts.removeLast();
 			
-			if (random != listOfInts.size()) { //replace the item at random position with tha last value
-				int itemAtRandom = listOfInts.get(random);
-				listOfInts.set(random, lastItem);
+			if (randomIndex != listOfInts.size()) { //replace the item at random position with the last value
+				int itemAtRandom = listOfInts.get(randomIndex);
+				listOfInts.set(randomIndex, lastItem);
 				result.add(itemAtRandom);
 			} else {
 				result.add(lastItem);

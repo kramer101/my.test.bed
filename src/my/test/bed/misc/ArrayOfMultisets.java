@@ -19,8 +19,6 @@ public class ArrayOfMultisets {
 		//key - number, value - occurrence
 		Map<Integer, Integer> mostPopular = new HashMap<>();
 		
-		int maxValueMostFrequent = 0;
-		int keyMostFrequent = 0;
 		
 		for (Set<Integer> multiset : data) { //number of multisets n
 			
