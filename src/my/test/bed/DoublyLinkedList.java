@@ -33,8 +33,10 @@ public class DoublyLinkedList<T> {
 	 * @return
 	 */
 	public boolean remove(final T value) {
-		
-		ListNode<T> lastNode = head;
+		if (head == null) {
+			return false;
+		}
+ 		ListNode<T> lastNode = head;
 		while (lastNode.getNext() != null) {
 			
 			if (lastNode.getValue().equals(value)) {
@@ -74,8 +76,6 @@ public class DoublyLinkedList<T> {
 			sb.append(lastNode.getValue());
 		}
 		
-		
-		
 		sb.append("]");
 		
 		return sb.toString();
@@ -101,6 +101,13 @@ public class DoublyLinkedList<T> {
 		list.remove(4);
 		
 		System.out.println(list);
+		
+		list.add(3);
+		list.add(5);
+		
+		System.out.println(list);
+		list.remove(10);
+		System.out.println(list);
 	}
 	
 	
@@ -117,9 +124,6 @@ public class DoublyLinkedList<T> {
 			return value;
 		}
 		
-		public void setValue(T value) {
-			this.value = value;
-		}
 		
 		ListNode<T> getNext() {
 			return next;
