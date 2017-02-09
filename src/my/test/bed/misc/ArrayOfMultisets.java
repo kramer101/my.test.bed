@@ -1,39 +1,36 @@
 package my.test.bed.misc;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
+import java.util.TreeMap;
 
 public class ArrayOfMultisets {
 
 	
-	private static void readList(final List<Set<Integer>> data) {
+	private static void readList(final List<List<Integer>> data) {
 		if (data == null) {
 			System.out.println("Data is null, exiting");
 			return;
 		}
 		
 		//key - number, value - occurrence
-		Map<Integer, Integer> mostPopular = new HashMap<>();
+		Map<Integer, Integer> mostPopular = new TreeMap<>();
 		
 		
-		for (Set<Integer> multiset : data) { //number of multisets n
-			
-		
+		for (List<Integer> multiset : data) { //number of multisets n
+				
 			
 			for (Integer num : multiset) { //number of numbers in a multiset n * m
 				
-				if (!mostPopular.containsKey(num)) {
-					mostPopular.put(num, 1);
+				if (mostPopular.containsKey(num)) {
+					mostPopular.put(num, mostPopular.get(num) + 1);
 				} else {
-					Integer currentCount = mostPopular.get(num);
-					mostPopular.put(num, currentCount + 1);
-
+					mostPopular.put(num, 1);
 				}
-			}
+				
+			}	
+			
 			
 			
 		}
@@ -58,25 +55,27 @@ public class ArrayOfMultisets {
 	
 	public static void main(String[] args) {
 		
-		List<Set<Integer>> data = new ArrayList<>();
+		List<List<Integer>> data = new ArrayList<>();
 		
-		Set<Integer> multiset1 = new HashSet<>();
+		List<Integer> multiset1 = new ArrayList<>();
 		
 		multiset1.add(20);
 		multiset1.add(9);
 		multiset1.add(3);
 		data.add(multiset1);
 		
-		Set<Integer> multiset2 = new HashSet<>();
+		List<Integer> multiset2 = new ArrayList<>();
 		multiset2.add(10);
 		multiset2.add(8);
 		multiset2.add(4);
 		multiset2.add(30);
+	
 
 		data.add(multiset2);
 		
-		Set<Integer> multiset3 = new HashSet<>();
+		List<Integer> multiset3 = new ArrayList<>();
 		multiset3.add(1);
+		multiset3.add(88);
 		multiset3.add(88);
 		multiset3.add(2);
 		multiset3.add(20);
