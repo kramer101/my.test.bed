@@ -42,7 +42,7 @@ public class SelectionSortTest {
 	
 	
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(sort(new int[]{9, 900, 4, 11, 9, 5, 24, 3, 0})));
+		System.out.println(Arrays.toString(sort(new int[]{19, 900, 4, 11, 9, 5, 24, 3, 0})));
 		
 		StringBuilder sb = new StringBuilder("abc");
 		

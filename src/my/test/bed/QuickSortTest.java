@@ -2,9 +2,9 @@ package my.test.bed;
 
 import java.util.Arrays;
 
-public class QuicSortTest {
+public class QuickSortTest {
 
-	public QuicSortTest() {
+	public QuickSortTest() {
 		
 	}
 	
@@ -55,11 +55,12 @@ public class QuicSortTest {
 		return left;
 	}
 	
-	
+
 	
 	public static void main(String[] args) {
+
 		
-		QuicSortTest sorter = new QuicSortTest();
+		QuickSortTest sorter = new QuickSortTest();
 		int[] array = {9,13,8,65,1,11};
 		System.out.println(Arrays.toString(array));
 		sorter.sort(array, 0, array.length - 1);

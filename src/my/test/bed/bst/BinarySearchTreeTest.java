@@ -28,7 +28,7 @@ public class BinarySearchTreeTest {
 	}
 	
 	
-	public boolean delete(final int valueToBeDeleted) {
+	public boolean remove(final int valueToBeDeleted) {
 		
 		
 		TreeNodeIteration<TreeNode> findNodeToBeDeletedIterator = new TreeNodeIteration<TreeNode>() {
@@ -77,7 +77,7 @@ public class BinarySearchTreeTest {
 			
 			if (largestLeftBelow != null) {
 				
-				delete(largestLeftBelow.getValue());
+				remove(largestLeftBelow.getValue());
 				nodeToBeDeleted.setValue(largestLeftBelow.getValue());
 				if (root.getValue() == nodeToBeDeleted.getValue()) {
 					root = nodeToBeDeleted;
@@ -201,7 +201,7 @@ public class BinarySearchTreeTest {
 	
 	public static void main(String[] args) {
 		
-		int[] tree = new int[]{11, 6, 8, 19, 4, 10, 5, 17, 43, 49, 31};
+		int[] tree = new int[]{11, 6, 8, 19, 4, 10, 5, 17, 43, 49, 31, 900, -90};
 		
 		BinarySearchTreeTest bst  = new BinarySearchTreeTest();
 		
@@ -217,7 +217,7 @@ public class BinarySearchTreeTest {
 			}
 		}, null);
 
-		boolean removed = bst.delete(11);
+		boolean removed = bst.remove(11);
 		System.out.println("removed " + removed);
 		
 		bst.iterateDfsPreOrder(new TreeNodeIteration<Void>() {
