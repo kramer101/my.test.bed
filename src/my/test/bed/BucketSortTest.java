@@ -2,11 +2,11 @@ package my.test.bed;
 
 import java.util.Arrays;
 
-public class BuketSortTest {
+public class BucketSortTest {
 
 	
 	
-	//PROBLEM HERE: how to deal with the duplicates?
+	//PROBLEM HERE: how to deal with the duplicates? Linked lists
 	public static int[] sort(final int[] input) {
 		
 		int[] temp = new int[0];
@@ -40,6 +40,6 @@ public class BuketSortTest {
 	
 	
 	public static void main(final String[] args) {
-		System.out.println(Arrays.toString(sort(new int[]{1000, 5, 8, 10, 3, 44, 1, 2, 2})));
+		System.out.println(Arrays.toString(sort(new int[]{1000, 5, 8, 10, 3, 44, 1, 2, 58})));
 	}
 }

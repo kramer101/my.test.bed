@@ -1,6 +1,7 @@
 package my.test.bed;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class LambdaTest1 {
 
@@ -45,6 +46,23 @@ public class LambdaTest1 {
 		
 		
 		List<String> l1 = new LinkedList<>();
+		l1.add("One");
+		l1.add("Two");
+		l1.add("Three");
+		l1.add("Four");
+		l1.add("Five");
+		l1.add("Six");
+		
+		l1.stream()
+		.filter((s) -> s.length() <= 3)
+		.map((s) -> s.toUpperCase())
+		.forEach((s) -> System.out.println(s));
+	
+		int lengthTotal = l1.stream()
+		.mapToInt((s) -> s.length())
+		.reduce(0, (i, j) -> i + j);
+		
+		System.out.println(lengthTotal);
 		
 	}
 	

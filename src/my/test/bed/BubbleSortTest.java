@@ -59,7 +59,7 @@ public class BubbleSortTest {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(sort(new int[]{900, 4, 11, 9, 5, 24, 3})));
+		System.out.println(Arrays.toString(sort(new int[]{4, 11, 9, 5, 24, 3, 900})));
 	}
 	
 }
