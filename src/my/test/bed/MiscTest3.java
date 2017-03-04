@@ -24,8 +24,6 @@ public class MiscTest3 {
         System.out.println(result);
         
 		
-		
-	        
 	        
 	}
 }

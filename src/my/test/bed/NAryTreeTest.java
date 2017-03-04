@@ -87,7 +87,22 @@ public class NAryTreeTest {
 		
 	}
 	
-	
+	private class Test2 implements Comparable<Test2> {
+
+		@Override
+		public int compareTo(Test2 oParam) {
+			
+			int[][] a = new int[2][2];
+			
+			a[1][1] = 6;
+			
+			// TODO Auto-generated method stub
+			return 0;
+		}
+
+		
+		
+	}
 	
 	private static class TreeNode<T extends Comparable<T>> implements Comparable<T>  {
 		private T value;

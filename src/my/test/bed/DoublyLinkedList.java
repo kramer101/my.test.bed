@@ -5,6 +5,7 @@ public class DoublyLinkedList<T> {
 	private ListNode<T> head;
 	private int size = 0;
 
+
 	/**
 	 * Add value to the end of the list.
 	 * @param value
@@ -27,12 +28,15 @@ public class DoublyLinkedList<T> {
 	}
 	
 	
+	
+	
 	/**
 	 * remove first occurrence of the specified value.
 	 * @param value value to remove from list
 	 * @return
 	 */
 	public boolean remove(final T value) {
+		
 		if (head == null) {
 			return false;
 		}

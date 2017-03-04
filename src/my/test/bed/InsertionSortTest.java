@@ -2,45 +2,9 @@ package my.test.bed;
 
 import java.util.Arrays;
 
-public class InsertSortTest {
+public class InsertionSortTest {
 
 	
-	/*public static int[] sort(int[] numbers, int first, int last) {
-	
-		if (first >= last) {
-			return numbers;
-		}
-		int largest = 0;
-		int smallest = Integer.MAX_VALUE;
-		
-		int largestPosition = 0;
-		int smallestPosition = 0;
-		
-		for (int i = first; i <= last; i++) {
-			int number = numbers[i];
-			if (largest < number) {
-				largest = number;
-				largestPosition = i;
-			}
-			
-			if (smallest > number) {
-				smallest = number;
-				smallestPosition = i;
-			}
-		}
-		
-		int tempFirst = numbers[first];
-		int tempLast = numbers[last];
-				
-		numbers[first] = smallest;
-		numbers[last] = largest;
-		
-		numbers[smallestPosition] = tempFirst;
-		numbers[largestPosition] = tempLast;
-		
-		return sort(numbers, first + 1, last -1);
-	}
-	*/
 	
 	public static int[] sort(int[] numbers) {
 		

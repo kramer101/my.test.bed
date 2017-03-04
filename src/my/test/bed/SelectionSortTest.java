@@ -22,16 +22,24 @@ public class SelectionSortTest {
 			
 			int smallestValue = Integer.MAX_VALUE;
 			int smallestValueIndex = 0;
+			
+			int startValue = result[i];
+			
 			for (int j = i + 1; j < result.length; j++) {
+				
 				if (smallestValue > result[j]) {
 					smallestValue = result[j];
 					smallestValueIndex = j;
 				}
 			}
 			
-			int startValue = result[i];
-			result[i] = smallestValue;
-			result[smallestValueIndex] =  startValue;
+
+			if (startValue > smallestValue) {
+				result[i] = smallestValue;
+				result[smallestValueIndex] =  startValue;
+				System.out.println(Arrays.toString(input));
+			}
+			
 		}
 		
 		
@@ -42,13 +50,21 @@ public class SelectionSortTest {
 	
 	
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(sort(new int[]{19, 900, 4, 11, 9, 5, 24, 3, 0})));
+		System.out.println(Arrays.toString(sort(new int[]{19, 900, 4, 11, 9, 5, 24, 3, 0, 34})));
+		//System.out.println(Arrays.toString(sort(new int[]{6, 9, 5, 1, 4})));
 		
-		StringBuilder sb = new StringBuilder("abc");
+
+		boolean b = false;
+		int a = 1;
+		char c = 'a';
+		long l = 0L;
+		short s = 0;
 		
-		System.out.println((5-5+6));
+		double d = 0D;
+		float f = 0.2345F;
+		byte bt = 0;
 		
-		char c = Character.MIN_VALUE;
+		
 		
 	}
 }

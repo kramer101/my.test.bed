@@ -5,6 +5,7 @@ public abstract class TreeNodeIteration<T> {
 	private T value;
 	private TreeNode next;
 	
+	
 	abstract void iterate(final TreeNode node, final TreeNode startNode);
 	
 	boolean stop() {

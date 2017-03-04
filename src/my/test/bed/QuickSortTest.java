@@ -28,31 +28,31 @@ public class QuickSortTest {
 		
 		int pivot = input[pivotIndex];
 		System.out.println("pivot " + pivot);
-		int left = positionStart;
-		int right = positionEnd;
+		int leftPos = positionStart;
+		int rightPos = positionEnd;
 				
-		while (left <= right) {
-			while (input[left] < pivot) {
-				left++;
+		while (leftPos <= rightPos) {
+			while (input[leftPos] < pivot) {
+				leftPos++;
 			}
 			
-			while (input[right] > pivot) {
-				right--;
+			while (input[rightPos] > pivot) {
+				rightPos--;
 			}
 			
-			if (left <= right) {
-				int temp = input[right];
-				input[right] = input[left];
-				input[left] = temp;
+			if (leftPos <= rightPos) {
+				int temp = input[rightPos];
+				input[rightPos] = input[leftPos];
+				input[leftPos] = temp;
 				
-				left++;
-				right--;
+				leftPos++;
+				rightPos--;
 			}
 			
 		}
 
 		System.out.println(Arrays.toString(input));
-		return left;
+		return leftPos;
 	}
 	
 
@@ -61,7 +61,7 @@ public class QuickSortTest {
 
 		
 		QuickSortTest sorter = new QuickSortTest();
-		int[] array = {9,13,8,65,1,11};
+		int[] array = {102,9,13,8,65,1,11};
 		System.out.println(Arrays.toString(array));
 		sorter.sort(array, 0, array.length - 1);
 		

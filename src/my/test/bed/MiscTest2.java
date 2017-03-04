@@ -128,6 +128,18 @@ public class MiscTest2 {
 		
 	}
 	
+	@Override
+	public boolean equals(Object objParam) {
+	
+		return super.equals(objParam);
+	}
+	
+	@Override
+	public int hashCode() {
+		
+		return super.hashCode();
+	}
+	
 	private static void test(int x, int y, List<Integer> list) {
 		
 		x++;
