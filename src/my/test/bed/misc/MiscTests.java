@@ -61,5 +61,17 @@ public class MiscTests {
 		
 		System.out.println( (5 % 10));
 		
+		(new D()).m();;
+		
 	}
+	
+	
+	static interface A {
+        default void m() { System.out.println("hello from A"); }
+    }
+	static interface B extends A {
+        default void m() { System.out.println("hello from B"); }
+    }
+	static interface C extends A {}
+	static class D implements B, C {}
 }
