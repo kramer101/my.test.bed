@@ -1,21 +1,34 @@
 package my.test.bed;
 
 import java.util.Date;
+import java.util.concurrent.atomic.AtomicInteger;
+
+import static java.util.stream.IntStream.range;
 
 public class ThreadLocalTest {
 
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		
-		Thread t1 = new Thread(new MyTask());
+		/*Thread t1 = new Thread(new MyTask());
 		Thread t2 = new Thread(new MyTask());
 		
 		t1.start();
-		t2.start();
-		
-		
-	}
+		Thread.sleep(3000);
+		t2.start();*/
+
+
+        Thread t1 = new Thread(new IntThread());
+        Thread t2 = new Thread(new IntThread());
+
+        t1.start();
+        Thread.sleep(3000);
+        t2.start();
+
+
+
+    }
 	
 	
 	private static class DateSingleton {
@@ -42,7 +55,47 @@ public class ThreadLocalTest {
 			threadDate.remove();
 		}
 	}
-	
+
+
+	private static class IntSingleton {
+
+        private static AtomicInteger integer = new AtomicInteger();
+
+	    private static ThreadLocal<Integer> objectThreadLocal = new ThreadLocal<Integer>() {
+
+
+            @Override
+            protected Integer initialValue() {
+                return integer.getAndIncrement();
+            }
+        };
+
+
+	    public static Integer getInt() {
+	        return objectThreadLocal.get();
+        }
+
+    }
+
+
+
+    private static class IntThread implements Runnable {
+
+        @Override
+        public void run() {
+            range(0, 10).forEach((i) -> {
+
+                System.out.println(Thread.currentThread().getName()
+                        + ": next int : " + IntSingleton.getInt());
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            });
+        }
+    }
+
 	
 	private static class MyTask implements Runnable {
 
