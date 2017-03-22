@@ -1,7 +1,6 @@
 package my.test.bed.misc;
 
 import java.util.Arrays;
-import java.util.Calendar;
 import java.util.Comparator;
 
 public class SortStrings {
@@ -39,28 +38,30 @@ public class SortStrings {
 
 		@Override
 		public int compare(String o1, String o2) {
+
 			return o1.toLowerCase().compareTo(o2.toLowerCase());
 		}
 		
 		
 	}
+
+
+
+    private static class StringComparator implements Comparator<String>  {
+
+        @Override
+        public int compare(String o1, String o2) {
+            return o1.compareTo(o2);
+        }
+
+    }
 	
 	public static void main(String[] args) {
 		String[] words = {"Fred", "bob", "Tom", "Mark", "john", "Steve"};
 		
-		System.out.println(Arrays.toString(sort(words)));
-		Arrays.sort(words, new IgnoreCaseStringComparator());
+		//System.out.println(Arrays.toString(sort(words)));
+		Arrays.sort(words, new StringComparator());
 		System.out.println(Arrays.toString(words));
-		
-		
-		Calendar c = Calendar.getInstance();
-		c.set(Calendar.HOUR, 12);
-		c.set(Calendar.MINUTE, 0);
-		c.set(Calendar.AM_PM, Calendar.AM);
-		c.add(Calendar.MINUTE, 1500);
-		
-		System.out.println(c);
-		
-		
+
 	}
 }

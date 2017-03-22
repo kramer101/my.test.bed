@@ -16,12 +16,24 @@ public class ConstructorTest {
         Parent p = null;
 
         p.test("parent");
+
+        /*Child c = (Child) new Top();
+        c.getSomeValue();*/
+
+        Child child1 = (Child) child;
+
+        Human child2 = (Top) getObject();
+
     }
 
 
+    static Human getObject() {
+        return new Child();
+    }
 
-    static class FamilyMember implements Human {
-        FamilyMember() {
+
+    static class Top implements Human {
+        Top() {
             System.out.println("Family Member");
         }
 
@@ -35,7 +47,7 @@ public class ConstructorTest {
         }
     }
 
-    static class GrandParent extends FamilyMember {
+    static class GrandParent extends Top {
 
         GrandParent() {
             System.out.println("grand parent");
@@ -65,6 +77,10 @@ public class ConstructorTest {
 
         static void test() {
             System.out.println("test by child object");
+        }
+
+        String getSomeValue() {
+            return "";
         }
 
     }
