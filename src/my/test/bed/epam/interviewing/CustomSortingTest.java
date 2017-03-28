@@ -116,6 +116,7 @@ public class CustomSortingTest {
 
         @Override
         public int compareTo(Patient o) {
+            System.out.println(">>>>this :" + this + " the other:" + o);
 
             int lastName = getLastName().compareTo(o.getLastName());
             int firstName = getFirstName().compareTo(o.getFirstName());

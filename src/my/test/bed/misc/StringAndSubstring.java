@@ -28,7 +28,10 @@ public class StringAndSubstring {
 			}
 
 			if (allMatch) {
+				System.out.println("index of " + subString + ": " + i);
+
 				return true;
+
 			}
 
 		}
@@ -37,7 +40,7 @@ public class StringAndSubstring {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isSubstringOf("carpets", "pets"));
+		System.out.println(isSubstringOf("retrospective", "spec"));
 	}
 
 	
