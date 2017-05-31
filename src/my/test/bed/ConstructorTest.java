@@ -43,7 +43,7 @@ public class ConstructorTest {
         }
 
         static void test(String name) {
-            System.out.println("test by family member object : " + name);
+            System.out.println("testEntityToPojo by family member object : " + name);
         }
     }
 
@@ -76,7 +76,7 @@ public class ConstructorTest {
         }
 
         static void test() {
-            System.out.println("test by child object");
+            System.out.println("testEntityToPojo by child object");
         }
 
         String getSomeValue() {

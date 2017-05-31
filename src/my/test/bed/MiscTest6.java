@@ -74,7 +74,7 @@ public class MiscTest6 {
 	
 	private static interface IOne {
 		default void test() {
-			System.out.println("IOne test");
+			System.out.println("IOne testEntityToPojo");
 		}
 		
 	
@@ -82,7 +82,7 @@ public class MiscTest6 {
 	
 	private static interface ITwo {
 		default void test() {
-			System.out.println("ITwo test");
+			System.out.println("ITwo testEntityToPojo");
 		}
 		
 		

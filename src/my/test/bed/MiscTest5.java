@@ -34,7 +34,7 @@ public class MiscTest5 {
 		System.getenv().forEach((k, v) -> System.out.println(k + "=" + v));
 			
 		
-		String s1 = "test";
+		String s1 = "testEntityToPojo";
 		System.out.println(Arrays.toString(s1.getBytes()));
 		Long l1 = new Long(Arrays.toString(s1.getBytes()).replace("[", "").replaceAll("]", "").replace(",", "").replace(" ", ""));
 		System.out.println(l1);

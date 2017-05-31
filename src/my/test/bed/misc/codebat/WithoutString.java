@@ -30,7 +30,7 @@ public class WithoutString {
 
 	public static void main(String[] args) {
 		System.out.println(withoutString("THIS is a FISH", "iS"));
-		String s = "This is test";
+		String s = "This is testEntityToPojo";
 		s = s.substring(2, s.length());
 		System.out.println(Character.getNumericValue('f'));
 		

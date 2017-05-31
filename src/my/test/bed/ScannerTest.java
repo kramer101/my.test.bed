@@ -104,6 +104,6 @@ public class ScannerTest {
 		
 		saxParser.parse(inputFile, handler);
 		
-		FileUtils.writeLines(new File("test-data_" + lastName + ".csv"), data);
+		FileUtils.writeLines(new File("testEntityToPojo-data_" + lastName + ".csv"), data);
 	}
 }

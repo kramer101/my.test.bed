@@ -150,7 +150,7 @@ public class ReflectionTest {
 
         ReflectionTest test = new ReflectionTest();
 
-        test.setMyField1("some test value");
+        test.setMyField1("some testEntityToPojo value");
 
 
 

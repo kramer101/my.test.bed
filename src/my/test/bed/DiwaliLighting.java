@@ -208,7 +208,7 @@ public class DiwaliLighting {
 	}
 	
 	/**
-	 * A class that represents a single input test case.
+	 * A class that represents a single input testEntityToPojo case.
 	 * 
 	 *
 	 */

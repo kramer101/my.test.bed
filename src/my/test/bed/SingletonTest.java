@@ -35,7 +35,7 @@ int     q = 0x00ff;
         //int state = 0;
         private AtomicInteger state = new AtomicInteger();
         void test() {
-            System.out.println("test " + state.getAndIncrement());
+            System.out.println("testEntityToPojo " + state.getAndIncrement());
 
         }
     }
