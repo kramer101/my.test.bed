@@ -2,6 +2,9 @@ package my.test.bed.hackerrank;
 
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/between-two-sets
+ */
 public class BetweenTwoSets {
 
 
