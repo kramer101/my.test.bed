@@ -2,6 +2,8 @@ package my.test.bed.modelmapper;
 
 import org.junit.Test;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeMap;
+import org.modelmapper.convention.MatchingStrategies;
 import uk.co.jemos.podam.api.PodamFactory;
 import uk.co.jemos.podam.api.PodamFactoryImpl;
 
@@ -21,7 +23,16 @@ public class MappingTest {
         OrderEntity orderEntity = factory.manufacturePojo(OrderEntity.class);
 
         ModelMapper modelMapper = new ModelMapper();
-        modelMapper.addMappings(new OrderMapping.OrderPojoToEntityMapping());
+        //modelMapper.addMappings(new OrderMapping.OrderPojoToEntityMapping());
+
+        modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+
+        TypeMap<OrderEntity, Order> map = modelMapper.createTypeMap(OrderEntity.class, Order.class);
+        
+
+
+        // map().getBillingAddress().setZipCode(source.getBillingPostalCode())
+
         Order order = modelMapper.map(orderEntity, Order.class);
 
         assertNotNull(order);
@@ -46,5 +57,10 @@ public class MappingTest {
         assertEquals(orderPojo.getCustomer().getName().getLastName(), orderEntity.getCustomerLastName());
 
         assertEquals(orderPojo.getBillingAddress().getZipCode(), orderEntity.getBillingPostalCode());
+
+
+
     }
+
+
 }

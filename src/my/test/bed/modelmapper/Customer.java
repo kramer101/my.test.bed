@@ -7,6 +7,9 @@ public class Customer {
 
 
     private Name name;
+    private String customerId;
+
+
 
     public Name getName() {
         return name;
@@ -15,4 +18,15 @@ public class Customer {
     public void setName(final Name name) {
         this.name = name;
     }
+
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(final String customerIdParam) {
+        customerId = customerIdParam;
+    }
+
+
 }

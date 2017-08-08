@@ -3,12 +3,127 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/annotation/meta/field.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/compiler.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/com/fl/wld/xmlbinding/jaxb/profile/AddressType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/fl/wld/xmlbinding/jaxb/profile/LawPubsType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/fl/wld/xmlbinding/jaxb/profile/ObjectFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/fl/wld/xmlbinding/jaxb/profile/PracticeGroupAfflsType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/fl/wld/xmlbinding/jaxb/profile/Profile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/ClassloaderRootTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/MiscTest10.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/MiscTest9.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/MockServerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/ScannerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/aspect/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/aspect/ProfileInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CustomSortingTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/hackerrank/AppleAndOrange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/hackerrank/BetweenTwoSets.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/jpa/CustomerEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/jpa/OrderEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/jpa/Report.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/jpa/ReportRepository.java">
           <value>
             <set />
           </value>
@@ -33,7 +148,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/CustomerEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/MapperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/MappingTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/MappingTestImpl.java">
           <value>
             <set />
           </value>
@@ -44,6 +174,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/Name.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/ObjectFacoryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/ObjectFactoryTest.java">
           <value>
             <set />
           </value>
@@ -74,6 +214,346 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/OrderMapping.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/ReflecitonsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/modelmapper/ReflectionsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/config/AdminSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/config/LpaFeedApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/controller/AdminController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/controller/view/AdminViewBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/controller/view/ErrorViewController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/controller/view/JobService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/parser/elements/organization/AffiliationBlockParser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/EndPointMocker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/FeedReader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/ProfileChangesTracker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/ProfileProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/ProfilePublisher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/reporting/ReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/reporting/impl/CsvFileReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/reporting/impl/H2ReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/status/FeedReaderExecutionProgress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/processor/status/FeedReaderExecutionReport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/repository/ReportEntryRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/BatchMessageLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/BatchMessageLoaderHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/BookmarkService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/CsvFileReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/LpaFeedConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/LpaFeedUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/MessageLoaderReporter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/MessageObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/ReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/StopSignal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/xmlbinding/jaxb/profile/AddressType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/webapp/admin/error.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/webapp/admin/feed.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/webapp/admin/main-template.xhtml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/controller/MainControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/parser/ProfileChangesTrackerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/BatchMessageLoaderHelperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/BatchMessagesLoaderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/FeedReaderExecutionReportTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/FeedReaderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/LpaFeedUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/java/com/fl/wld/utility/MessageLoaderReporterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/test/resources/data_v3.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/.gitignore">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/XML/profile.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/controller/http/convert/domain/profile/ProfileObjectFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/PaServiceJaxbImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/ProfileServiceJaxbImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/ElementsMapperFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/ElementsMappingFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/Mapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/ProfileComposer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/AddressToAddresses.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/AddressToAddressess.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/LawerToProfilePropeties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/LawyerToAddress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/LawyerToAddresses.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/LawyerToParent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/LawyerToPositions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/LawyerToProfileProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/LawyerToProfilePropeties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/ModelMapperHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/main/java/com/fl/upmt/sl/api/service/mapping/impl/RosettaStoneToProfileProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/test/java/com/fl/upmt/sl/api/controller/ProfileControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/test/java/com/fl/upmt/sl/api/service/mappers/ElementsMapperFactoryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/upmt-sl-api/src/test/java/com/fl/upmt/sl/api/service/mappers/ProfileComposerTest.java">
           <value>
             <set />
           </value>

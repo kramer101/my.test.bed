@@ -1,9 +1,15 @@
 package my.test.bed.modelmapper;
 
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
 /**
+ *
  * Created by Vadym_Yakovlev on 5/31/2017.
  */
-public class OrderEntity {
+@Entity
+public class OrderEntity implements Serializable {
     private String customerFirstName;
     private String customerLastName;
     private String billingStreet;

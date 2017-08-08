@@ -1,6 +1,6 @@
 package my.test.bed.epam.interviewing;
 
-import com.sun.istack.internal.NotNull;
+
 
 import java.time.Duration;
 import java.time.Instant;
@@ -84,7 +84,7 @@ public class CustomSortingTest {
         private String lastName;
         private Instant lastVisit;
 
-        private Patient(@NotNull Builder builder) {
+        private Patient(Builder builder) {
             firstName = builder.firstName;
             lastName = builder.lastName;
             lastVisit = builder.lastVisit;
