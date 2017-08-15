@@ -12,8 +12,18 @@ public class MyHelper {
 			
 			System.out.println(matrix[i] + "[" + row + "]");
 		}
-		
-		
+	}
+
+
+	public static void printCharMatrix(char[][] matrix) {
+		for (int i = 0; i < matrix.length; i++) {
+			String row = "";
+			for (int j = 0; j < matrix[i].length; j++) {
+				row = row + " " + matrix[i][j];
+			}
+
+			System.out.println("[" + row + "]");
+		}
 	}
 	
 	@Override
