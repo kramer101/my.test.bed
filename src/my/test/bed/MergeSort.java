@@ -48,6 +48,7 @@ public class MergeSort {
     }
 
 
+
     private static int[] merge(int[] subArray1, int[] subArray2) {
         int[] result = new int[subArray1.length + subArray2. length];
 

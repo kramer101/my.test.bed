@@ -68,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/MiscQuiz.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/MiscTest10.java">
           <value>
             <set />
@@ -93,6 +98,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/ThreadWithDelayTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/ThreadWithDelaytest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/aspect/App.java">
           <value>
             <set />
@@ -108,7 +123,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/PalindromeDetector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/hackerrank/AppleAndOrange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/hackerrank/ArrayManipulation.java">
           <value>
             <set />
           </value>
@@ -128,7 +153,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/hackerrank/LeftRotation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/hackerrank/QuickSort1Partition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/hackerrank/SparseArrays.java">
           <value>
             <set />
           </value>
@@ -153,12 +188,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/misc/AlphabetSoup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/misc/CallableTest.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/my/test/bed/misc/ClassloaderRoot.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/my/test/bed/misc/FileVisitorTest.java">
           <value>
             <set />
           </value>
@@ -293,6 +338,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/parser/ParserFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/parser/elements/organization/AffiliationBlockParser.java">
           <value>
             <set />
@@ -353,6 +403,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/BatchLineLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/BatchMessageLoader.java">
           <value>
             <set />
@@ -369,6 +424,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/CsvFileReportWriter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/utility/DataLakeProfileLine.java">
           <value>
             <set />
           </value>
@@ -404,6 +464,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/java/com/fl/wld/xmlbinding/jaxb/profile/AddressType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/resources/env-prod.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/resources/env-qa.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/resources/env-stage.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../tr/fl/lpa-feed/src/main/resources/env.properties">
           <value>
             <set />
           </value>
