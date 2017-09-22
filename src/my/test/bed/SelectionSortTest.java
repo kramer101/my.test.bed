@@ -63,8 +63,11 @@ public class SelectionSortTest {
 		double d = 0D;
 		float f = 0.2345F;
 		byte bt = 0;
-		
-		
+		int octal = 010;
+
+		int b1 = 0b110;
+
+		System.out.println(octal);
 		
 	}
 }

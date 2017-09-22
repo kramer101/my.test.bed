@@ -1,0 +1,119 @@
+<html>
+
+<head>
+
+
+
+    <script lang="javascript">
+
+        //alert('test');
+
+        //console.log('111');
+
+        alert(1e18-1);
+
+        var car =  {
+
+            attributes: {
+                color: "red",
+                bodyType:"sedan"
+            },
+
+            price:1000,
+            make:"Ford",
+            miles:100000,
+
+            toString() {
+                return `make:  "${this.make}"`;
+            }
+
+            ,
+
+            run() {
+                console.log('Running...' + new Date());
+
+                console.log(Object.keys(car));
+            }
+
+        }
+
+
+    function User() {
+        return {
+            name:"John",
+            lastName:"Doe",
+
+            toString() {
+                return `User: ${this.name} ${this.lastName}`;
+            },
+
+            show() {
+                alert(user);
+            }
+        }
+
+
+    }
+
+
+    car.price = 2000;
+
+    let a = Array.of('c', 'b', 'a');
+    a.sort();
+    alert(a)
+
+
+    let user = new User();
+
+    alert(user);
+
+
+
+    class Animal {
+
+        setName(name) {
+            this.name = name;
+        }
+    }
+
+
+    class Cat extends Animal {
+
+
+        scratch() {
+            console.log(`${this.name} scratching...`);
+        }
+    }
+
+    let animal1 = new Animal();
+    animal1.setName("Bambi");
+
+    alert(animal1.name);
+
+    let cat1 = new Cat();
+    cat1.setName("Toby");
+
+
+    </script>
+
+</head>
+
+
+<body>
+
+<h2>
+    <script>document.write(JSON.stringify(car))</script>
+</h2>
+
+<input type="button" value="Test" onclick="javascript:car.run()"/>
+<br/>
+
+<input type="button" value="Test User" onclick="javascript:user.show()"/>
+<br/>
+
+<input type="button" value="Test Animal" onclick="javascript:cat1.scratch()"/>
+<br/>
+
+</body>
+
+</html>

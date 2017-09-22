@@ -2,7 +2,5 @@
 target/*
 
 bin/*
+*.log
 
-
-
-hs_err_pid47064.log

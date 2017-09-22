@@ -20,6 +20,12 @@ public class ThreadLocalTest {
 
 
         Thread t1 = new Thread(new IntThread());
+        t1.setUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+            @Override
+            public void uncaughtException(Thread t, Throwable e) {
+                System.out.println(e.getMessage());
+            }
+        });
         Thread t2 = new Thread(new IntThread());
 
         t1.start();
@@ -34,16 +40,11 @@ public class ThreadLocalTest {
 	private static class DateSingleton {
 		
 		
-		private static final ThreadLocal<Date> threadDate = new ThreadLocal<Date>() {
-
-			@Override
-			protected Date initialValue() {
-				Date d = new Date();
-				System.out.println("initiating Date for thread " + Thread.currentThread().getName() + ", value=" + d);
-				return d;
-			};
-			
-		};
+		private static final ThreadLocal<Date> threadDate = ThreadLocal.withInitial(() -> {
+            Date d = new Date();
+            System.out.println("initiating Date for thread " + Thread.currentThread().getName() + ", value=" + d);
+            return d;
+        });
 		
 		
 		public static Date getDate() {
