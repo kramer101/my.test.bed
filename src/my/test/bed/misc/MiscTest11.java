@@ -1,17 +1,23 @@
 package my.test.bed.misc;
 
 import java.math.BigInteger;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class MiscTest11 {
 
     static Integer a;
     private static int i = 10;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
 
+        char[] password = {'a', 'b', 'c', '1'};
+        short s2 = 225;
+        byte b1 = 1;
 
-
-        String s1 = "Hello my name is Bob.";
+        String s1 = "Hello my name is Bill.";
 
         byte[] bytes = s1.getBytes();
         BigInteger stringAsInt = new BigInteger(bytes);
@@ -82,6 +88,43 @@ public class MiscTest11 {
 
         System.out.println(v.getClass().getName());
         System.out.println(v.getClass().getName());
+
+        byte b2 = 10;
+        byte b3 = 10;
+        byte b4 = (byte) (b2 + b3);
+
+        System.out.println(b4);
+
+        short s3 = 127;
+        short s4 = 10;
+
+        short s5 = (short)(s3 + s4);
+        System.out.println(s5);
+
+        System.out.println(5 - (88 % 5));
+
+        String[] array1 = {"31415926535897932384626433832795", "1", "500", "44", "10"};
+
+        //big sorting (hackerrank)
+        Arrays.parallelSort(array1, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                //assumption : only positive numbers
+                if (o1.length() != o2.length()) {
+                    return o1.length() - o2.length();
+                } else {
+                    BigInteger i1 = new BigInteger(o1);
+                    BigInteger i2 = new BigInteger(o2);
+                    return i1.compareTo(i2);
+                }
+            }
+        });
+        System.out.println(Arrays.toString(array1));
+
+        NumberFormat numberFormat = NumberFormat.getNumberInstance();
+        numberFormat.setParseIntegerOnly(true);
+        System.out.println(numberFormat.parse("91j23hjjh087"));
+
     }
 
 

@@ -18,7 +18,6 @@ public class ThreadSafeSingleton {
         IntStream.range(0, 10).forEach(i -> new Thread(new MyTask()).start());
 
 
-
     }
 
     static class MyTask implements Runnable {
