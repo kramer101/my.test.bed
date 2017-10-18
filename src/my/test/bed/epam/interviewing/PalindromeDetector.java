@@ -1,5 +1,7 @@
 package my.test.bed.epam.interviewing;
 
+import java.util.Set;
+
 /**
  * Created by vyakovlev on 3/20/17.
  */
@@ -31,6 +33,9 @@ public class PalindromeDetector {
             end--;
 
         }
+        Set<String> s = null;
+
+        
 
         return true;
     }

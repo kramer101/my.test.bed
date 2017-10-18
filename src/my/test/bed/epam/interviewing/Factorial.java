@@ -1,6 +1,10 @@
 package my.test.bed.epam.interviewing;
 
+import com.google.common.collect.Sets;
+
 import java.math.BigInteger;
+import java.util.Set;
+import java.util.stream.IntStream;
 
 /**
  * Created by vyakovlev on 3/23/17.
@@ -8,7 +12,7 @@ import java.math.BigInteger;
 public class Factorial {
 
     public static void main(String[] args) {
-        System.out.println(factorialOf(100));
+        System.out.println(factorialOf2(510));
     }
 
 
@@ -24,5 +28,16 @@ public class Factorial {
 
         return result;
 
+    }
+
+
+    static BigInteger factorialOf2(final int number) {
+        Set<Integer> numbers = Sets.newLinkedHashSet();
+        IntStream.range(2, number + 1).forEach(numbers::add);
+
+        return numbers.stream()
+                .map(integer -> new BigInteger(String.valueOf(integer)))
+                .reduce(BigInteger::multiply)
+                        .orElseGet(() -> BigInteger.ZERO);
     }
 }

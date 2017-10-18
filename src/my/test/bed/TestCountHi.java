@@ -18,6 +18,7 @@ public class TestCountHi {
 		}
 		
 		result++;
+
 		
 		String substr = input.substring(indexOfSearch, input.length()); 
 		return count(substr);

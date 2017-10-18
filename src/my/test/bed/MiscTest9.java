@@ -10,9 +10,17 @@ import java.util.function.BiConsumer;
  */
 public class MiscTest9 {
 
+    private static int int1;
+    public static int getInt() {
 
+        return int1++;
+    }
     public static void main(String[] args) {
 
+
+
+        System.out.println(getInt());
+        System.out.println(getInt());
 
         URL system = ClassLoader.getSystemClassLoader().getResource(".");
 

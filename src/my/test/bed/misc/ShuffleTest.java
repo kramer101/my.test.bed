@@ -1,10 +1,6 @@
 package my.test.bed.misc;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.Random;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author vyakovlev
@@ -20,7 +16,8 @@ public class ShuffleTest {
 		if (array == null || array.length == 0) {
 			return result;
 		}
-		
+
+
 		LinkedList<Integer> listOfInts = new LinkedList<>(Arrays.asList(array));
 		
 		while (listOfInts.size() > 0) {

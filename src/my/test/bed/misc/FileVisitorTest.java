@@ -20,7 +20,7 @@ public class FileVisitorTest {
         System.out.println(i);
 
         try {
-            Files.walkFileTree(Paths.get("c:/work"), new SimpleFileVisitor<Path>() {
+            Files.walkFileTree(Paths.get("/Users/vadimyakovlev/work"), new SimpleFileVisitor<Path>() {
 
                 @Override
                 public FileVisitResult visitFile(final Path file, final BasicFileAttributes attrs) throws IOException {
@@ -33,6 +33,8 @@ public class FileVisitorTest {
                 public FileVisitResult postVisitDirectory(final Path dir, final IOException exc) throws IOException {
                     System.out.println("POST:" + dir);
                     return super.postVisitDirectory(dir, exc);
+
+
                 }
 
                 /*@Override
