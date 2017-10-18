@@ -14,7 +14,7 @@ public class NavigableSetTest  {
 
 
         NavigableSet<Integer> mySet = new TreeSet<>();
-        IntStream.range(0, 100).forEach(i -> mySet.add(i));
+        IntStream.range(0, 100).forEach(mySet::add);
 
         System.out.println(mySet.higher(50));
 
