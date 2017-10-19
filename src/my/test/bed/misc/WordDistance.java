@@ -1,77 +1,103 @@
 package my.test.bed.misc;
 
-import java.util.ArrayList;
+import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Arrays;
-import java.util.List;
+import java.util.LinkedHashSet;
 import java.util.Objects;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.Set;
 
 /**
- *
+ * Minimum edit distance problem.
  */
 public class WordDistance {
 
 
     public static void main(String[] args) {
 
+        String w1 = RandomStringUtils.randomAlphabetic(100);
+        String w2 = w1 + "x";RandomStringUtils.randomAlphabetic(100);
 
-        int distance = getWordDistance("cat", "cattsz");
-                //StringUtils.getLevenshteinDistance("cat", "cat");
+        long start1 = System.currentTimeMillis();
+        int distance = getWordDistance(w1, w2);
+        long time1 = System.currentTimeMillis() - start1;
+        System.out.println("distance " + distance + ", " + time1 + "ms");
 
-        System.out.println(distance);
+        long start2 = System.currentTimeMillis();
+        int levenshteinDistance = StringUtils.getLevenshteinDistance(w1, w2);
+        long time2 = System.currentTimeMillis() - start2;
+
+        System.out.println("levenshteinDistance " + levenshteinDistance + ", " + time2 + "ms");
 
     }
 
 
 
-    private static int getWordDistance(final String wordOne, final String wordTwo) {
 
+    private static int getWordDistance(final String wordOne, final String wordTwo) {
         Objects.requireNonNull(wordOne);
         Objects.requireNonNull(wordTwo);
 
         int lengthDiff = Math.abs(wordOne.length() - wordTwo.length());
         int distance = 0;
 
-        char[] arrayOneSorted = wordOne.toCharArray();
+        char[] arrayOneSorted = wordOne.toLowerCase().toCharArray();
         Arrays.sort(arrayOneSorted);
 
-        char[] arrayTwoSorted = wordTwo.toCharArray();
+        char[] arrayTwoSorted = wordTwo.toLowerCase().toCharArray();
         Arrays.sort(arrayTwoSorted);
 
+        int iterationLength = Math.max(wordOne.length(), wordTwo.length());
 
-        if (lengthDiff == 0) { //simple case
-            int iterationLength = Math.min(wordOne.length(), wordTwo.length());
-            for (int i = 0; i < iterationLength; i++) {
-                if (arrayOneSorted[i] != arrayTwoSorted[i]) {
-                    distance++;
-                }
+        Set<Character> charSet = new LinkedHashSet<>();
+
+        for (int i = 0; i < iterationLength; i++) {
+            Character characterOne = getChar(arrayOneSorted, i);
+            Character characterTwo = getChar(arrayTwoSorted, i);
+
+            if (characterOne == null || characterTwo == null) { //addition
+                distance++;
             }
 
-        } else {
+            if (characterOne != characterTwo) { //substitution
+                distance++;
+            }
 
-            //calculate symmetric difference and return the size.
-            List<Character> listOne  = IntStream.range(0, arrayOneSorted.length)
-                   .mapToObj(value -> arrayOneSorted[value]).collect(Collectors.toList());
-            List<Character> listTwo = IntStream.range(0, arrayTwoSorted.length)
-                    .mapToObj(value -> arrayTwoSorted[value]).collect(Collectors.toList());
-
-            List<Character> result  = new ArrayList<>();
-            result.addAll(listOne);
-            result.addAll(listTwo);
-
-            List<Character> intersection = new ArrayList<>();
-            intersection.addAll(listOne);
-            intersection.retainAll(listTwo);
-
-            result.removeAll(intersection);
-
-            distance = result.size();
-
+            charSet.add(characterOne);
+            charSet.add(characterTwo);
         }
+
+        /*Set<Character> setOne = wordOne.chars().sorted()
+                .mapToObj(value -> ((char) value)).collect(Collectors.toSet());
+
+        Set<Character> setTwo = wordTwo.chars().sorted()
+                .mapToObj(value -> ((char) value)).collect(Collectors.toSet());
+
+        List<Character> result  = new LinkedList<>();
+        result.addAll(setOne);
+        result.addAll(setTwo);
+
+        List<Character> intersection = new LinkedList<>();
+        intersection.addAll(setOne);
+        intersection.retainAll(setTwo);
+
+        result.removeAll(intersection);
+
+
+        distance = result.size();*/
+
+
+
 
         return distance;
 
+    }
+
+    private static Character getChar(char[] chars, int position) {
+        if (position >= chars.length) return null;
+
+        return chars[position];
     }
 
 }

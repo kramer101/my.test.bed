@@ -5,9 +5,6 @@ package my.test.bed.epam.interviewing;
  */
 public class Autoboxing {
 
-
-
-
     public static void main(String[] args) {
 
         int i1 = 10;
@@ -17,6 +14,7 @@ public class Autoboxing {
 
         System.out.println(i1 == integer1);
         System.out.println(integer2 == integer3);
+
 
     }
 
