@@ -46,7 +46,7 @@ public class MiscTest11 {
         --c;
         System.out.println(c);
 
-        System.out.printf("Value: %b", Math.E);
+        System.out.printf("Value: %s", Math.PI);
 
         Thread thread1 = new Thread(new TestRun(), "t1");
         Thread thread2 = new Thread(new TestRun(), "t2");

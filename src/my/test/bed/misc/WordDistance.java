@@ -1,12 +1,9 @@
 package my.test.bed.misc;
 
-import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Arrays;
-import java.util.LinkedHashSet;
 import java.util.Objects;
-import java.util.Set;
 
 /**
  * Minimum edit distance problem.
@@ -16,8 +13,8 @@ public class WordDistance {
 
     public static void main(String[] args) {
 
-        String w1 = RandomStringUtils.randomAlphabetic(100);
-        String w2 = w1 + "x";RandomStringUtils.randomAlphabetic(100);
+        String w1 = "cat";//RandomStringUtils.randomAlphabetic(100);
+        String w2 = "tac";//w1 + "x";//RandomStringUtils.randomAlphabetic(100);
 
         long start1 = System.currentTimeMillis();
         int distance = getWordDistance(w1, w2);
@@ -48,7 +45,7 @@ public class WordDistance {
         char[] arrayTwoSorted = wordTwo.toLowerCase().toCharArray();
         Arrays.sort(arrayTwoSorted);
 
-        int iterationLength = Math.max(wordOne.length(), wordTwo.length());
+        /*int iterationLength = Math.max(wordOne.length(), wordTwo.length());
 
         Set<Character> charSet = new LinkedHashSet<>();
 
@@ -66,7 +63,7 @@ public class WordDistance {
 
             charSet.add(characterOne);
             charSet.add(characterTwo);
-        }
+        }*/
 
         /*Set<Character> setOne = wordOne.chars().sorted()
                 .mapToObj(value -> ((char) value)).collect(Collectors.toSet());
@@ -86,8 +83,6 @@ public class WordDistance {
 
 
         distance = result.size();*/
-
-
 
 
         return distance;

@@ -15,17 +15,26 @@ public class CalculatorService {
         Objects.requireNonNull(value1);
         Objects.requireNonNull(value2);
 
+
         return value1 * value2;
+
     }
 
 
-    public Double divide(final Double dividend, final Double divisor) {
-        Objects.requireNonNull(dividend);
-        Objects.requireNonNull(divisor);
+    //Implement JUnit tests.
+    //Requirements:
+    //-must perform the division correctly
+    //-if any argument is null, the method must throw an exception with a user friendly message "argument must not be null"
+    //-if divisor is 0, then the method must throw a UnsupportedOperationException with a user friendly message "cannot divide by 0"
+    //-of divident is 0, then result should be 0.
+    public Integer divide(final Integer dividend, final Integer divisor) {
+
+        Objects.requireNonNull(dividend, "argument must not be null");
+        Objects.requireNonNull(divisor, "argument must not be null");
+        if (dividend == 0) return 0;
         if (divisor == 0) {
             throw new UnsupportedOperationException("cannot divide by 0");
         }
-
 
         return dividend / divisor;
     }
