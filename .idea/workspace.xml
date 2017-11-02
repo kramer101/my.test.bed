@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d21d82ab-f2a3-4bee-a21d-30035e4a662e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/OrderOfOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my/test/bed/reactive/CompletableFutureTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/MostFrequentIntegerInArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CalculatorService.java" afterPath="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CalculatorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my/test/bed/misc/MiscTest11.java" afterPath="$PROJECT_DIR$/src/my/test/bed/misc/MiscTest11.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my/test/bed/misc/WordDistance.java" afterPath="$PROJECT_DIR$/src/my/test/bed/misc/WordDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InheritanceTests.java" afterPath="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InheritanceTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -53,20 +51,8 @@
         <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/OrderOfOperations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompletableFutureTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my/test/bed/reactive/CompletableFutureTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -75,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/Autoboxing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,18 +90,18 @@
       <file leaf-file-name="PalindromeDetector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/PalindromeDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="476">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutowireListOfObjects.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/spring/AutowireListOfObjects.java">
+      <file leaf-file-name="CalculatorService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CalculatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,12 +109,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CalculatorService.java">
+      <file leaf-file-name="InheritanceTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InheritanceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="-148">
+              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MostFrequentIntegerInArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/MostFrequentIntegerInArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/ConstructorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -155,8 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search</find>
-      <find>popular</find>
       <find>palindrom</find>
       <find>west</find>
       <find>pre:c:\w</find>
@@ -185,6 +181,8 @@
       <find>extends</find>
       <find>remov</find>
       <find>byte</find>
+      <find>popular</find>
+      <find>.reduce</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
@@ -210,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/my/test/bed/misc/AlphabetSoup.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/ThreadWithDelaytest.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/ThreadWithDelayTest.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/MergeSort.java" />
@@ -245,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/my/test/bed/MiscTest9.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/LinkedListVsTreeSet.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/StaticAndNotStatic.java" />
-        <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InheritanceTests.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/misc/NavigableSetTest.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/misc/SymmetricDifferenceInArrays2.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InitializerBlocks.java" />
@@ -261,6 +257,8 @@
         <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/OrderOfOperations.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/reactive/CompletableFutureTests.java" />
         <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CalculatorService.java" />
+        <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InheritanceTests.java" />
+        <option value="$PROJECT_DIR$/src/my/test/bed/epam/interviewing/MostFrequentIntegerInArray.java" />
       </list>
     </option>
   </component>
@@ -309,7 +307,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
+    <option name="width" value="1440" />
     <option name="height" value="833" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -434,8 +432,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -467,14 +463,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bed" type="462c0819:PsiDirectoryNode" />
               <item name="interviewing" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my.test.bed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my.test.bed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bed" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewing" type="462c0819:PsiDirectoryNode" />
               <item name="Autoboxing" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
@@ -492,6 +480,22 @@
               <item name="bed" type="462c0819:PsiDirectoryNode" />
               <item name="interviewing" type="462c0819:PsiDirectoryNode" />
               <item name="Factorial" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="my.test.bed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my.test.bed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bed" type="462c0819:PsiDirectoryNode" />
+              <item name="interviewing" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritanceTests" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="my.test.bed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my.test.bed" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bed" type="462c0819:PsiDirectoryNode" />
+              <item name="interviewing" type="462c0819:PsiDirectoryNode" />
+              <item name="MostFrequentIntegerInArray" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="my.test.bed" type="b2602c69:ProjectViewProjectNode" />
@@ -700,16 +704,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../primefacesproject/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Debugger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="fact&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/Factorial.java&#10;Single&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;StringJoiner&#9;PSI&#9;JAVA://java.util.StringJoiner&#10;HttpMeth&#9;PSI&#9;JAVA://org.springframework.http.HttpMethod&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Quick&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/QuickSortTest.java&#10;singl&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;Insert&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/InsertionSortTest.java&#10;Linke&#9;PSI&#9;JAVA://my.test.bed.DoublyLinkedList&#10;Bin&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/BinarySearch.java&#10;bubb&#9;PSI&#9;JAVA://my.test.bed.BubbleSortTest&#10;Inter&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/ArrayIntersection.java&#10;Array&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/hackerrank/ArrayManipulation.java&#10;Binar&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/bst/BinarySearchTreeTest.java&#10;Levenshte&#9;PSI&#9;JAVA://org.apache.commons.lang3.StringUtils#getLevenshteinDistance&#10;Merge&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/MergeSort.java&#10;pom&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/pom.xml&#10;Word&#9;PSI&#9;JAVA://my.test.bed.epam.interviewing.SearchWordNoSpaces&#10;Fibo&#9;PSI&#9;JAVA://my.test.bed.epam.interviewing.FibonacciSequence&#10;word&#9;PSI&#9;JAVA://my.test.bed.hackerrank.CrosswordPuzzle.Word#word&#10;Mocks&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/MockServerTest.java&#10;Object&#9;FILE&#9;jar://C:/Java/jdk1.8.0_121/jre/lib/rt.jar!/java/lang/Object.class&#10;Profi&#9;FILE&#9;file://C:/work/code/my.test.bed/src/com/fl/wld/xmlbinding/jaxb/profile/Profile.java&#10;SortStr&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/misc/SortStrings.java&#10;compiler.&#9;FILE&#9;file://C:/work/code/my.test.bed/.idea/compiler.xml&#10;factory&#9;PSI&#9;JAVA://com.fl.wld.xmlbinding.jaxb.profile.ObjectFactory&#10;Profile&#9;PSI&#9;JAVA://com.fl.wld.xmlbinding.jaxb.profile.Profile&#10;Singlet&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;PropertyMa&#9;FILE&#9;jar://C:/Users/Vadym_Yakovlev/.m2/repository/org/modelmapper/modelmapper/0.7.8/modelmapper-0.7.8.jar!/org/modelmapper/PropertyMap.class" />
+    <property name="SearchEverywhereHistoryKey" value="Inherita&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/InheritanceTests.java&#10;fact&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/Factorial.java&#10;Single&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;StringJoiner&#9;PSI&#9;JAVA://java.util.StringJoiner&#10;HttpMeth&#9;PSI&#9;JAVA://org.springframework.http.HttpMethod&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Quick&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/QuickSortTest.java&#10;singl&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;Insert&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/InsertionSortTest.java&#10;Linke&#9;PSI&#9;JAVA://my.test.bed.DoublyLinkedList&#10;Bin&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/BinarySearch.java&#10;bubb&#9;PSI&#9;JAVA://my.test.bed.BubbleSortTest&#10;Inter&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/ArrayIntersection.java&#10;Array&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/hackerrank/ArrayManipulation.java&#10;Binar&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/bst/BinarySearchTreeTest.java&#10;Levenshte&#9;PSI&#9;JAVA://org.apache.commons.lang3.StringUtils#getLevenshteinDistance&#10;Merge&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/MergeSort.java&#10;pom&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/pom.xml&#10;Word&#9;PSI&#9;JAVA://my.test.bed.epam.interviewing.SearchWordNoSpaces&#10;Fibo&#9;PSI&#9;JAVA://my.test.bed.epam.interviewing.FibonacciSequence&#10;word&#9;PSI&#9;JAVA://my.test.bed.hackerrank.CrosswordPuzzle.Word#word&#10;Mocks&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/MockServerTest.java&#10;Object&#9;FILE&#9;jar://C:/Java/jdk1.8.0_121/jre/lib/rt.jar!/java/lang/Object.class&#10;Profi&#9;FILE&#9;file://C:/work/code/my.test.bed/src/com/fl/wld/xmlbinding/jaxb/profile/Profile.java&#10;SortStr&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/misc/SortStrings.java&#10;compiler.&#9;FILE&#9;file://C:/work/code/my.test.bed/.idea/compiler.xml&#10;factory&#9;PSI&#9;JAVA://com.fl.wld.xmlbinding.jaxb.profile.ObjectFactory&#10;Profile&#9;PSI&#9;JAVA://com.fl.wld.xmlbinding.jaxb.profile.Profile&#10;Singlet&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;PropertyMa&#9;FILE&#9;jar://C:/Users/Vadym_Yakovlev/.m2/repository/org/modelmapper/modelmapper/0.7.8/modelmapper-0.7.8.jar!/org/modelmapper/PropertyMap.class" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -726,7 +732,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Autoboxing">
+  <component name="RunManager" selected="Application.MostFrequentIntegerInArray">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -790,6 +796,31 @@
       <module name="my.test.bed" />
       <envs />
     </configuration>
+    <configuration name="CalculatorService.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="my.test.bed.epam.interviewing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="my.test.bed" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="my.test.bed.epam.interviewing" />
+      <option name="MAIN_CLASS_NAME" value="my.test.bed.epam.interviewing.CalculatorService" />
+      <option name="METHOD_NAME" value="testDivide" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="CompletableFutureTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -809,14 +840,14 @@
       <module name="my.test.bed" />
       <envs />
     </configuration>
-    <configuration name="GenericsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InheritanceTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="my.test.bed.epam.interviewing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="my.test.bed.epam.interviewing.GenericsTest" />
+      <option name="MAIN_CLASS_NAME" value="my.test.bed.epam.interviewing.InheritanceTests" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -891,6 +922,25 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="MostFrequentIntegerInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="my.test.bed.epam.interviewing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="my.test.bed.epam.interviewing.MostFrequentIntegerInArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my.test.bed" />
+      <envs />
+    </configuration>
     <configuration name="OrderOfOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -899,44 +949,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="my.test.bed.epam.interviewing.OrderOfOperations" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="my.test.bed" />
-      <envs />
-    </configuration>
-    <configuration name="ReverseArrayOfNumbersInPlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="my.test.bed.epam.interviewing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="my.test.bed.epam.interviewing.ReverseArrayOfNumbersInPlace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="my.test.bed" />
-      <envs />
-    </configuration>
-    <configuration name="WordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="my.test.bed.misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="my.test.bed.misc.WordDistance" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1311,19 +1323,19 @@
       <item index="3" class="java.lang.String" itemvalue="Application.MiscTest10" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.MiscTest8" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.ArrayIntersection.testIntersection" />
-      <item index="6" class="java.lang.String" itemvalue="Application.GenericsTest" />
-      <item index="7" class="java.lang.String" itemvalue="Application.ReverseArrayOfNumbersInPlace" />
-      <item index="8" class="java.lang.String" itemvalue="Application.WordDistance" />
-      <item index="9" class="java.lang.String" itemvalue="Application.OrderOfOperations" />
-      <item index="10" class="java.lang.String" itemvalue="Application.CompletableFutureTests" />
+      <item index="6" class="java.lang.String" itemvalue="Application.OrderOfOperations" />
+      <item index="7" class="java.lang.String" itemvalue="Application.CompletableFutureTests" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.CalculatorService.testDivide" />
+      <item index="9" class="java.lang.String" itemvalue="Application.InheritanceTests" />
+      <item index="10" class="java.lang.String" itemvalue="Application.MostFrequentIntegerInArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CompletableFutureTests" />
-        <item index="1" class="java.lang.String" itemvalue="Application.OrderOfOperations" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WordDistance" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReverseArrayOfNumbersInPlace" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GenericsTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MostFrequentIntegerInArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InheritanceTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorService.testDivide" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CompletableFutureTests" />
+        <item index="4" class="java.lang.String" itemvalue="Application.OrderOfOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -1471,12 +1483,19 @@
       <option name="project" value="LOCAL" />
       <updated>1508454646981</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding more interviewing stuff">
+      <created>1509410163968</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1509410163968</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PermutationsOfString - 2017.10.02 at 18h 17m 37s.xml">
-      <configuration name="PermutationsOfString" configurationId="JUnit" />
+    <history-entry file="CalculatorService_testDivide - 2017.10.30 at 17h 39m 33s.xml">
+      <configuration name="CalculatorService.testDivide" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PermutationsOfString - 2017.10.02 at 18h 45m 18s.xml">
       <configuration name="PermutationsOfString" configurationId="JUnit" />
@@ -1519,7 +1538,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="833" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1529,31 +1548,36 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25874126" sideWeight="0.51287556" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13492064" sideWeight="0.4878837" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13447782" sideWeight="0.4878837" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17482518" sideWeight="0.48712447" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25874126" sideWeight="0.48712447" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18559219" sideWeight="0.49535963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21101573" sideWeight="0.49535963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25274727" sideWeight="0.5046404" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24195804" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25274727" sideWeight="0.5046404" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32779622" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="-1711" y="250" width="1480" height="780" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1561,7 +1585,6 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21321961" sideWeight="0.5282392" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18976545" sideWeight="0.5234114" order="3" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
@@ -1823,11 +1846,17 @@
           <properties />
           <option name="timeStamp" value="153" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/MostFrequentIntegerInArray.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="154" />
+      <option name="time" value="158" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1836,13 +1865,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/my/test/bed/QuickSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/hackerrank/ArrayManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -1898,7 +1920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,7 +1934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1963,7 +1983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="646" column="28" lean-forward="true" selection-start-line="646" selection-start-column="28" selection-end-line="646" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1971,12 +1990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="41" column="46" lean-forward="false" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="e#288#289#0" expanded="false" />
-            <element signature="e#335#336#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2006,7 +2019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2024,18 +2036,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InheritanceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/misc/ShuffleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2043,7 +2047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2051,7 +2054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2059,7 +2061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2067,7 +2068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2075,7 +2075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2083,7 +2082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2091,7 +2089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2099,10 +2096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#325#326#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2110,10 +2103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9381">
           <caret line="591" column="11" lean-forward="false" selection-start-line="591" selection-start-column="11" selection-end-line="591" selection-end-column="11" />
-          <folding>
-            <element signature="e#23334#23335#0" expanded="false" />
-            <element signature="e#23368#23369#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2121,7 +2110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2129,7 +2117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2160,26 +2147,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/reactive/CompletableFutureTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/spring/AutowireListOfObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2187,7 +2173,7 @@
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/ConstructorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -2195,7 +2181,7 @@
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/Autoboxing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2218,8 +2204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/PalindromeDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="476">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -2227,7 +2213,25 @@
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/OrderOfOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CalculatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/InheritanceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -2235,16 +2239,18 @@
     <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/CalculatorService.java">
+    <entry file="file://$PROJECT_DIR$/src/my/test/bed/epam/interviewing/MostFrequentIntegerInArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="346">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

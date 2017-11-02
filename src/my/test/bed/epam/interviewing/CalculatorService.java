@@ -1,5 +1,8 @@
 package my.test.bed.epam.interviewing;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 import java.util.Objects;
 
 /**
@@ -24,9 +27,10 @@ public class CalculatorService {
     //Implement JUnit tests.
     //Requirements:
     //-must perform the division correctly
+    //-must never return null
     //-if any argument is null, the method must throw an exception with a user friendly message "argument must not be null"
     //-if divisor is 0, then the method must throw a UnsupportedOperationException with a user friendly message "cannot divide by 0"
-    //-of divident is 0, then result should be 0.
+    //-if dividend is 0, then the result should be 0.
     public Integer divide(final Integer dividend, final Integer divisor) {
 
         Objects.requireNonNull(dividend, "argument must not be null");
@@ -36,9 +40,18 @@ public class CalculatorService {
             throw new UnsupportedOperationException("cannot divide by 0");
         }
 
+
         return dividend / divisor;
     }
 
 
+
+    @Test
+    public void testDivide() {
+        CalculatorService service = new CalculatorService();
+        Integer result = service.divide(10, 5);
+        Assert.assertNotNull(result);
+
+    }
 
 }
