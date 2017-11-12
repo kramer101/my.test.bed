@@ -17,7 +17,7 @@ public class PalindromeDetector {
     }
 
 
-    private static boolean isPalindrome2(final String wordParam) {
+    public static boolean isPalindrome2(final String wordParam) {
 
         char[] word = wordParam.toCharArray();
         int start = 0;

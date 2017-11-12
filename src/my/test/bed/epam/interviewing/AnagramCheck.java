@@ -15,6 +15,12 @@ public class AnagramCheck {
     }
 
 
+    /**
+     *
+     * Check if two strings are anagram of each other.
+     * Example:
+     * "beat" and "beta" are anagram
+     */
     static boolean isAnagram(String word1, String word2) {
 
         if (word1.length() != word2.length()) {
@@ -29,6 +35,8 @@ public class AnagramCheck {
         String sorted1 = new String(word1Chars);
 
         String sorted2 = new String(word2Chars);
+
+
 
         return sorted1.equals(sorted2);
     }

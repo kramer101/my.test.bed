@@ -6,7 +6,13 @@ package my.test.bed.epam.interviewing;
 public class InheritanceTests {
 
 
-    public static void main(String[] args) {
+
+
+
+
+
+    //DO NOT USE
+    /*public static void main(String[] args) {
         CompositeVehicle myVehicle = new MyVehicle("test");
 
         myVehicle.drive();
@@ -51,5 +57,5 @@ public class InheritanceTests {
         public String getName() {
             return name;
         }
-    }
+    }*/
 }
