@@ -22,8 +22,8 @@ public class CollectionsQuestions {
         System.out.println(collection1.iterator().next());
 
         Deque<String> collection2 = new ArrayDeque<>();
-        collection2.addFirst("apple");
         collection2.addFirst("banana");
+        collection2.addFirst("apple");
         collection2.addFirst("orange");
 
         //what will be printed
@@ -74,8 +74,6 @@ public class CollectionsQuestions {
 
         arrayList.listIterator().forEachRemaining(System.out::println);
     }
-
-
 
 
 

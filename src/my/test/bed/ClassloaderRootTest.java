@@ -6,6 +6,8 @@ package my.test.bed;
 public class ClassloaderRootTest {
 
     public static void main(String[] args) {
+
+
         System.out.println("test");
     }
 }

@@ -1,9 +1,8 @@
 package my.test.bed.reactive;
 
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 public class CompletableFutureTests {
@@ -12,8 +11,6 @@ public class CompletableFutureTests {
 
 
     public static void main(String[] args) throws InterruptedException {
-
-        List<String> allResults = new ArrayList<>();
 
         CompletableFuture<Void> voidCompletableFuture =
                 CompletableFuture.supplyAsync(CompletableFutureTests::serviceThree)
@@ -27,15 +24,15 @@ public class CompletableFutureTests {
                 CompletableFuture.supplyAsync(CompletableFutureTests::serviceOne)
                 .thenAcceptAsync(System.out::println);
 
+
         CompletableFuture<Void> allOf =
                 CompletableFuture.allOf(
                         voidCompletableFuture, voidCompletableFuture1, voidCompletableFuture2);
 
 
-
         try {
             allOf.get();
-        } catch (Exception e) {
+        } catch (ExecutionException e) {
             e.printStackTrace();
         }
 

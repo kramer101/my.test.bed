@@ -33,7 +33,7 @@ public class Factorial {
 
     static BigInteger factorialOf2(final int number) {
         Set<Integer> numbers = Sets.newLinkedHashSet();
-        IntStream.range(2, number + 1).forEach(numbers::add);
+        IntStream.rangeClosed(2, number).forEach(numbers::add);
 
         return numbers.stream()
                 .map(integer -> new BigInteger(String.valueOf(integer)))
