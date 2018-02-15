@@ -26,6 +26,8 @@ public class MiscTests {
 	
 	
 	public static void main(String[] args) {
+		String[] strings = {"A", "B"};
+		System.out.println(Arrays.toString(strings));
 		System.out.println(scoresIncreasing(new int[]{1,3,4}));
 	
 		int[] nums = new int[]{5,3,4,2,7,2,9,145,38,2,886,4,5,2,1};
@@ -75,6 +77,7 @@ public class MiscTests {
 	static interface C extends A {}
 
 	static class D implements A, B {
+
 
 	}
 }

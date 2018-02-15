@@ -6,9 +6,11 @@ public class ExceptionHandling {
     public static void main(String[] args) {
         try {
             callMe();
-        } catch (IllegalArgumentException throwable) {
-            System.out.println("IllegalArgumentException");
-            throwable.printStackTrace();
+            System.out.println("done");
+
+        } catch (IllegalArgumentException exception) {
+            System.out.println("Caught IllegalArgumentException");
+            exception.printStackTrace();
         }
     }
 

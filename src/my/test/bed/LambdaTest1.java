@@ -5,7 +5,7 @@ import java.util.List;
 
 public class LambdaTest1 {
 
-	public static  void doTest(MyTestFuctionalInterface execution) {
+	public static  void doTest(MyTestFunctionalInterface execution) {
 		int i = 1;
 		int j = 2;
 		execution.apply(i, j);
@@ -63,13 +63,17 @@ public class LambdaTest1 {
 		.reduce(0, (i, j) -> i + j);
 		
 		System.out.println(lengthTotal);
+		MyTestFunctionalInterface.hello();
 		
 	}
 	
 	@FunctionalInterface
-	public interface MyTestFuctionalInterface {
+	public interface MyTestFunctionalInterface {
 		
 		void apply(int a, int b);
+		static void hello() {
+			System.out.println("Hello");
+		}
 	}
 	
 	
