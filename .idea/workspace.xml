@@ -55,13 +55,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1" />
-          <entry key="xml" value="34" />
+          <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="XML" value="34" />
+          <entry key="XML" value="53" />
         </counts>
       </usages-collector>
     </session>
@@ -134,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="441">
+              <caret line="84" column="28" lean-forward="true" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -563,7 +563,7 @@
     <property name="SearchEverywhereHistoryKey" value="Downl&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/AppleVideoDownloader.java&#10;Misctest&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/MiscTests.java&#10;collec&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/CollectionsQuestions.java&#10;Calc&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/CalculatorService.java&#10;Inher&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/InheritanceTests.java&#10;Myf&#9;PSI&#9;JAVA://my.test.bed.LambdaTest1.MyTestFuctionalInterface&#10;Interface&#9;PSI&#9;JAVA://my.test.bed.LambdaTest1.MyTestFuctionalInterface&#10;LInkedLi&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/LinkedListVsTreeSet.java&#10;RuntimeEx&#9;PSI&#9;JAVA://java.lang.RuntimeException&#10;Calcu&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/CalculatorService.java&#10;pom&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/pom.xml&#10;Fact&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/Factorial.java&#10;Queu&#9;PSI&#9;JAVA://my.test.bed.epam.interviewing.CollectionsQuestions#queueVsStack&#10;Set&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/LinkedListVsTreeSet.java&#10;Downloada&#9;PSI&#9;JAVA://my.test.bed.misc.DownloadableItemBuilder&#10;Collection&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/CollectionsQuestions.java&#10;Misct&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/MiscTest11.java&#10;Calcula&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/CalculatorService.java&#10;Prime&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/PrimeNumberDetector.java&#10;Inherita&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/InheritanceTests.java&#10;fact&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/Factorial.java&#10;Single&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;StringJoiner&#9;PSI&#9;JAVA://java.util.StringJoiner&#10;HttpMeth&#9;PSI&#9;JAVA://org.springframework.http.HttpMethod&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Quick&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/QuickSortTest.java&#10;singl&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;Insert&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/InsertionSortTest.java&#10;Linke&#9;PSI&#9;JAVA://my.test.bed.DoublyLinkedList&#10;Bin&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/BinarySearch.java&#10;bubb&#9;PSI&#9;JAVA://my.test.bed.BubbleSortTest&#10;Inter&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/misc/ArrayIntersection.java&#10;Array&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/hackerrank/ArrayManipulation.java&#10;Binar&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/bst/BinarySearchTreeTest.java&#10;Levenshte&#9;PSI&#9;JAVA://org.apache.commons.lang3.StringUtils#getLevenshteinDistance&#10;Merge&#9;FILE&#9;file:///Users/vadimyakovlev/work/code/my.test.bed/src/my/test/bed/MergeSort.java&#10;Word&#9;PSI&#9;JAVA://my.test.bed.epam.interviewing.SearchWordNoSpaces&#10;Fibo&#9;PSI&#9;JAVA://my.test.bed.epam.interviewing.FibonacciSequence&#10;word&#9;PSI&#9;JAVA://my.test.bed.hackerrank.CrosswordPuzzle.Word#word&#10;Mocks&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/MockServerTest.java&#10;Object&#9;FILE&#9;jar://C:/Java/jdk1.8.0_121/jre/lib/rt.jar!/java/lang/Object.class&#10;Profi&#9;FILE&#9;file://C:/work/code/my.test.bed/src/com/fl/wld/xmlbinding/jaxb/profile/Profile.java&#10;SortStr&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/misc/SortStrings.java&#10;compiler.&#9;FILE&#9;file://C:/work/code/my.test.bed/.idea/compiler.xml&#10;factory&#9;PSI&#9;JAVA://com.fl.wld.xmlbinding.jaxb.profile.ObjectFactory&#10;Profile&#9;PSI&#9;JAVA://com.fl.wld.xmlbinding.jaxb.profile.Profile&#10;Singlet&#9;FILE&#9;file://C:/work/code/my.test.bed/src/my/test/bed/epam/interviewing/ThreadSafeSingleton.java&#10;PropertyMa&#9;FILE&#9;jar://C:/Users/Vadym_Yakovlev/.m2/repository/org/modelmapper/modelmapper/0.7.8/modelmapper-0.7.8.jar!/org/modelmapper/PropertyMap.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538293914169" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538294194516" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../primefacesproject/pom.xml" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1230,7 +1230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538293736030</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="misc stuff">
+      <created>1538293920422</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1538293920422</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2043,8 +2050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="441">
+          <caret line="84" column="28" lean-forward="true" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
         </state>
       </provider>
     </entry>

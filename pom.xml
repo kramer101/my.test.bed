@@ -19,10 +19,9 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
-
         <configuration>
             <executable>true</executable>
-            
+
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
@@ -71,6 +70,23 @@
                 </configuration>
             </plugin>
 
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+
+            <configuration>
+                <archive>
+                    <manifest>
+                        <addClasspath>true</addClasspath>
+
+                        <mainClass>my.test.bed.misc.AppleVideoDownloader</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+
+
+
+        </plugin>
 
     </plugins>
   </build>
