@@ -13,6 +13,20 @@ public class OrderOfOperations {
 
         d(c(b(a())));
 
+        if (one() || theOther()) {
+
+        }
+    }
+
+
+    private static boolean one() {
+        System.out.println("one");
+        return true;
+    }
+
+    private static boolean theOther() {
+        System.out.println("the other");
+        return true;
     }
 
 

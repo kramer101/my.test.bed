@@ -68,6 +68,27 @@
                 </configuration>
             </plugin>
 
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>${spring.boot.version}</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>repackage</goal>
+                    </goals>
+                    <configuration>
+                        <executable>true</executable>
+
+                        <classifier>spring-boot</classifier>
+                        <mainClass>
+                            my.test.bed.misc.AppleVideoDownloader
+                        </mainClass>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+
     </plugins>
   </build>
 
@@ -246,6 +267,7 @@
 
 
   </dependencies>
+
 
 
 

@@ -7,6 +7,10 @@ import java.util.concurrent.TimeUnit;
 public class MiscTest12 {
 
     public static void main(String[] args) {
+
+        Object chars = new char[]{'a', 'b', 'c'};
+        System.out.println(new String((char[]) chars));
+
         int i = 0;
         do {
             System.out.println("i = " + i);

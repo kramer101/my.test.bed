@@ -45,6 +45,6 @@ public class SymmetricDifferenceInArrays2 {
 		b.add(15);
 		b.add(333);
 		
-		System.out.println(diff(a, b));
+		System.out.println(diff(b, a));
 	}
 }
