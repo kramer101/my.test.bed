@@ -76,10 +76,11 @@
                     <manifest>
                         <mainClass>my.test.bed.misc.AppleVideoDownloader</mainClass>
                     </manifest>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
                 </archive>
-                <descriptorRefs>
-                    <descriptorRef>jar-with-dependencies</descriptorRef>
-                </descriptorRefs>
+
             </configuration>
         </plugin>
 
